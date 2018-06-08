@@ -36,8 +36,6 @@ class UsersController extends Controller
         break;
       case '4':
       $users = User::all();
-      // $users = $role->user;
-      // dd($users);
         return view('asprak.user', compact('users'));
         break;
         case '5':
